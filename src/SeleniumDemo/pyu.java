@@ -26,7 +26,7 @@ System.setProperty("webdriver.chrome.driver",".\\Software\\chromedriver.exe");
 		//WebElement s=driver.findElement(By.xpath("//input[@name='q']"));
 		//s.sendKeys("java",Keys.ENTER);
 	Thread.sleep(2000);
-//		System.out.println(driver.findElement(By.xpath("//span[contains(.,'Programming language')]")).getText());
+//		System.out.println(driver.findElement(By.xpath("//span[contains(.,'Programming language')]")).getText());//used to get error message
 
 	}
 
