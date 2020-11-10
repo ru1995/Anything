@@ -13,7 +13,7 @@ import org.openqa.selenium.interactions.SourceType;
 public class java_extract {
 
 	public static void main(String[] args) throws InterruptedException  {
-		// To search in google java and get all the texts after search while not hitting enter
+		// To search in google java and get all the texts with java plus the text after it after search while not hitting enter
 		System.setProperty("webdriver.chrome.driver", ".\\Software\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
