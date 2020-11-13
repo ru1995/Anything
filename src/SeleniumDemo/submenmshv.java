@@ -38,6 +38,7 @@ public class submenmshv {
 			System.err.println(name);
 			System.out.println(menu.getText());
 			a.moveToElement(menu).perform();
+			
 			Thread.sleep(2000);
 			
 			List<WebElement> submenus=driver.findElements(By.xpath("//span[contains(.,'"+name +"')]/parent::li/descendant::ul[@class='taxonslist']/li"));  // writing a common xpath
