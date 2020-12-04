@@ -11,6 +11,31 @@ import org.openqa.selenium.support.ui.Select;
 public class slctMulty {
 
 	public static void main(String[] args) throws InterruptedException {
+		//This is the html code to be used while developing the program!
+/*<html>
+<body> 
+        <select id="a"> 
+             
+            <option value="123">123</option> 
+            <option value="124">124</option> 
+            <option value="125">125</option> 
+            <option value="126">126</option> 
+            
+        </select> 
+<br>
+</br>
+  <select id="b" multiple> 
+             
+            <option value="321">321</option> 
+            <option value="322">322</option> 
+            <option value="323">323</option> 
+            <option value="324">324</option> 
+            
+        </select> 
+    </body> 
+</html>    */
+		
+		
 		System.setProperty("webdriver.chrome.driver", ".\\Software\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();

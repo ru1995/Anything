@@ -23,7 +23,7 @@ public class urban_sort {
 		Thread.sleep(10000);
 		
 		//for closing pop up
-		driver.findElement(By.xpath("//a[@class='close-reveal-modal hide-mobile']")).click();
+		driver.findElement(By.xpath("//a[@class='close-reveal-modal hide-mobile'22222222222222222222222222222222]")).click();
 		Thread.sleep(2000);
 		
 		

@@ -23,8 +23,9 @@ public class getttl_without {
 //		
 		//driver.findElement(By.xpath("//title[text()='Google']")).getText();
 		driver.findElement(By.tagName("title")).getText();
-				
-
+		//
+		
+		
 	}
 
 }

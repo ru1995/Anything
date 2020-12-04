@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96" started-at="2020-11-30T07:49:10Z" finished-at="2020-11-30T07:49:10Z">
+    <groups>
+      <group name="functional">
+        <method signature="demo.TC_03()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_03" class="org.demo.tstNG.demo"/>
+        <method signature="demo.TC_04()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_04" class="org.demo.tstNG.demo"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="demo.TC_01()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_01" class="org.demo.tstNG.demo"/>
+        <method signature="demo.TC_02()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_02" class="org.demo.tstNG.demo"/>
+      </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="demo.TC_05()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_05" class="org.demo.tstNG.demo"/>
+        <method signature="demo.TC_06()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_06" class="org.demo.tstNG.demo"/>
+      </group> <!-- integration -->
+    </groups>
+    <test name="Test" duration-ms="96" started-at="2020-11-30T07:49:10Z" finished-at="2020-11-30T07:49:10Z">
+      <class name="org.demo.tstNG.demo">
+        <test-method status="PASS" signature="TC_01()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_01" duration-ms="24" started-at="2020-11-30T07:49:10Z" finished-at="2020-11-30T07:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method status="PASS" signature="TC_02()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_02" duration-ms="1" started-at="2020-11-30T07:49:10Z" finished-at="2020-11-30T07:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02 -->
+        <test-method status="PASS" signature="TC_04()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_04" duration-ms="0" started-at="2020-11-30T07:49:10Z" finished-at="2020-11-30T07:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04 -->
+        <test-method status="PASS" signature="TC_06()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_06" duration-ms="2" started-at="2020-11-30T07:49:10Z" finished-at="2020-11-30T07:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06 -->
+        <test-method status="PASS" signature="TC_03()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_03" duration-ms="2" depends-on-groups="smoke" started-at="2020-11-30T07:49:10Z" finished-at="2020-11-30T07:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03 -->
+        <test-method status="PASS" signature="TC_05()[pri:0, instance:org.demo.tstNG.demo@a71081]" name="TC_05" duration-ms="3" depends-on-groups="functional" started-at="2020-11-30T07:49:10Z" finished-at="2020-11-30T07:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05 -->
+      </class> <!-- org.demo.tstNG.demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
